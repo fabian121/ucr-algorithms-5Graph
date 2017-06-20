@@ -48,11 +48,7 @@ MyGraph::GRAPHNODEPTR MyGraph::getNode(char id) {
     }
     
     //means that it could find the node!
-    if (current != NULL) {
-        return current;
-    }else{
-        return NULL;
-    }
+    return current;
 }
 
 /*inserts a neighbor at the selected node*/
